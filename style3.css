@@ -1,0 +1,135 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+  font-family: 'Raleway', sans-serif;
+  background: #cbcdda;
+  }
+  
+.logo{
+    background: #113abf;
+    display:flex;
+    text-align: center;
+   
+  }
+  .graficlogo{
+      padding: 5px;
+      max-width: 100%;
+      box-sizing: border-box;
+  }
+footer{
+      width: 100%;
+      height: auto;
+      background-color: #2180b8db;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 25px;
+  }
+  footer a{
+      color: #2180b8db;
+      font-size: 14px;
+      margin-left: 10px;
+  }
+  footer nav a:hover{
+      border-bottom: 1px solid #2180b8db;
+  }
+  footer p{
+      color: #2180b8db;
+  }
+  nav{
+      margin: 5px auto;
+      width: 750px;
+      height: 70px;
+  }
+  header p{
+      margin-top: 50px;
+      color: #ffffff;
+  }
+ 
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.social img:hover{
+    background: #ffffff;
+    border-radius: 50%;
+}
+.topnav{
+      background-color: #1f80dbf2;
+      font-size: 50px;
+      margin-top: 1px;
+  }
+
+.topnav a{
+    color: #fafbfc;
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 15px; 
+}
+.topnav a:hover{
+    border-bottom: 2px solid #000;
+}
+table{
+    text-align: left;
+    border-spacing: 5px;
+    background-color: #cbcdda;
+    border: 5px solid  #2180b8db;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: #23283a;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th{
+    border: 3px solid #2180b8db;
+    padding: 10px;
+  }
+  td{
+    border: 3px solid #2180b8db;
+    padding: 15px;
+  }
+  tr:nth-child(2n) {    
+     background-color: #9fa1b3 ;
+     }
+
+form{
+    text-align: center;
+    border-collapse: separate;
+    /*border-spacing: 5px;*/
+    background: #ba2222 ;
+    border: 16px solid lightgray;
+    border-radius: 20px;
+    width: 750px;
+    margin: 0 auto;
+   padding: 2px;
+}
+.links{
+    border: 16px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #2180b8db;
+   /* border-radius: 15px;*/
+   background: #e4e8eb;
+   width: 750px;
+   margin: 0 auto;
+ padding: 50px;
+    
+  }
+  li {
+    color:#226bba;
+    text-align: start;
+  }
+  li:hover {
+    font-weight: bolder;
+   
+  }
+  a{
+    color:#2180b8db;
+    text-decoration: none;
+  }
+  a:hover{
+  font-weight: bold;
+  }
